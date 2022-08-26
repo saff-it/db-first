@@ -1,0 +1,20 @@
+Nome tabella: macchine
+
+marca
+modello
+versione
+carrozzeria
+carburante
+anno_immatricolazione
+prezzo
+paese
+cap
+chilometraggio
+potenza_motore
+cambio
+numero_di_porte
+numero_di_posti
+colore
+classe_emissioni
+
+
