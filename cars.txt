@@ -1,20 +1,21 @@
 Nome tabella: macchine
 
-marca - stringa -
-modellov - stringa -
-versione - stringa -
-carrozzeria - stringa -
-carburante - stringa -
-anno_immatricolazione - data -
-prezzo - float -
-paese - stringa -
-cap - stringa -
-chilometraggio - intero - 
-potenza_motore - intero -
-cambio - stringa -
-numero_di_porte - intero -
-numero_di_posti - intero -
-colore - stringa -
-classe_emissioni - stringa -
-
+id , intero , MEDIUMINT , PRIMARY_KEY , AUTO_INCREMENT
+marca , stringa , VARCHAR(20) , NOTNULL
+modello , stringa , VARCHAR(20) , NOTNULL
+versione , stringa , VARCHAR(80) , NOTNULL
+carrozzeria , stringa , VARCHAR(30) , NOTNULL
+carburante , stringa , VARCHAR(30) , NOTNULL
+anno_immatricolazione , data , YEAR , NOTNULL
+prezzo , float , FLOAT(10,2) , NOTNULL
+paese , stringa , VARCHAR(25) , NULL
+cap , stringa , VARCHAR(10) , NULL
+chilometraggio , intero , MEDIUMINT , NOTNULL
+potenza_motore , intero , SMALLINT , NOTNULL
+cambio , stringa , VARCHAR(20) , NOTNULL
+numero_di_porte , intero , TINYINT , NULL , DEFAULT(5)
+numero_di_posti , intero , TINYINT , NULL , DEFAULT(5)
+colore , stringa , VARCHAR(20) , NOTNULL
+classe_emissioni , stringa , VARCHAR(20) , NULL
+descrizione_veicolo , stringa , TEXT , NULL
 
